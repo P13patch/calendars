@@ -1,0 +1,16 @@
+
+.appBarBody {
+    display: flex-box;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(33, 45, 94, 0.989);
+    font-size: 40px;
+}
+
+.loginbutton {
+    float: left;
+}
+
+.settingsbutton {
+    float: right;
+}
