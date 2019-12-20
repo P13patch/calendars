@@ -11,7 +11,7 @@ function App() {
       <header>
        <AppBar></AppBar>
       </header>
-      <div>Calander</div>
+      <div>Calendar</div>
     </div>
   );
 }
