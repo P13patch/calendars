@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import '../css/searchBar.css'
 
 
 
@@ -17,11 +18,11 @@ function SearchBar() {
 
         
         return(
-            <div>
-                <ul>
-                    <li>filter</li>
-                    <li>filter</li>
-                </ul>
+            <div className="searchfield">
+                <div>
+                    <div>filter</div>
+                    <div>filter</div>
+                </div>
             </div>
         )
         }

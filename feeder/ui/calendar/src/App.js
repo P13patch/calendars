@@ -1,8 +1,10 @@
 import React from 'react';
-import './App.css';
+import './components/css/App.css';
 
 import AppBar from './components/js/Appbar'
 import SearchBar from './components/js/SearchBar'
+import Sources from './components/js/Sources'
+import CalendarApp from './components/js/Calendar'
 
 
 
@@ -12,9 +14,21 @@ function App() {
       <header>
         <AppBar></AppBar>
       </header>
-      <div>
-        <SearchBar></SearchBar>
-        <div>Calendar</div>
+      <div className="appBody">
+
+        <div className="sourcesBody">
+          <Sources></Sources>
+        </div>
+
+        <div className="calendarBody">
+          <div className="searchBar">
+            <SearchBar></SearchBar>
+          </div>
+
+          <div className="calendarApp">
+            <CalendarApp></CalendarApp>
+          </div>
+        </div>
       </div>
 
     </div>

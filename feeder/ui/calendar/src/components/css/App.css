@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.appBody {
+  display: flex;
+}
+
+.sourcesBody {
+  border-right: solid;
+
+  float: left;
+  width: 30%;
+}
+
+.calendarBody {
+ 
+
+  float: right;
+  width: 70%;
+}
